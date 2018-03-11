@@ -1,3 +1,6 @@
+//Almost a bug. Whoops!
+var config = reloadConfig();
+
 //Main Discord API (Unnoficial, but easier for me to understand lol)
 const Discord = require("discord.js");
 
@@ -34,7 +37,6 @@ var jobDb = low(jobAdapter);
 jobDb.defaults({users:{}}).write();
 
 //Setting up...
-var config = reloadConfig();
 const client = new Discord.Client();
 
 var voiceChannel;
@@ -276,8 +278,8 @@ function playFile(name,member) {
 	if (voiceChannel == undefined) return false,"You need to be in a voice channel to play sounds!";
 	play(name,"file",voiceChannel);
 }
-
-function roll(args) {
+//Not quite ready yet. Next (stable) version
+/**function roll(args) {
 	var splitroll = undefined;
 	var foundRoll = undefined;
 	for (var i=0;i<args.length;i++) {
@@ -314,12 +316,13 @@ function roll(args) {
 			return newRoll,roll,amtToChange;
 		}
 	}
-}
+}**/
 
-client.on("ready", function() {
+client.on("ready", function() { //Bot is ready to go-go :P
 	console.log("READY FOR ACTION!");
 	if (config.outputDebugMessages) console.log("[DEBUG] Prefix: "+config.prefix);
 });
+
 var looping = false;
 client.on("message", function (message) {
 	//Making life easier
