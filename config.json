@@ -1,0 +1,49 @@
+{
+
+	
+	"discordSecret": "put-discord-secret-here",
+	"twitchSecret": "put-twitch-secret-here",
+
+
+	"outputDebugMessages": true,
+	"deleteMsgsInCmdsChans": true,
+	"logUserMesssages": true,
+	"prefix": "$",
+	"ownerUsername": "kd8lvt",
+	"minMsgLen": 10,
+	"punishMsgLen": 1000,
+	"longMsgPunishment": 5,
+	"enableJobs": true,
+	"commandPrefixes": [
+		"!",
+		"~",
+		"$",
+		"/",
+		"^",
+		"%",
+		"#",
+		"&",
+		")",
+		"(",
+		"`",
+		"-",
+		"+",
+		"=",
+		"\\",
+		"[",
+		"]",
+		"?",
+		"<",
+		">",
+		".",
+		",",
+		"*",
+		"m!"
+	],
+	"jobs": [
+	],
+	"commandChannelList": [
+		"commands",
+		"campaign-commands"
+	]
+}
