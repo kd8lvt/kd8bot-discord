@@ -41,19 +41,29 @@ Configuring Kd8Bot is pretty simple. There is an example configuration (config.j
 
 Setting up the Discord bot:
     Setting up the Discord bot is pretty simple. If you already know how to do this, or already have abot set up, feel free to skip this part.
-    1. Head over to https://discordapp.com/developers/applications/me and log in, if you aren't already.
-    2. Click the button that says "New App"
-    4. Give your bot a name, description, and icon. Then click "Create App"
-    4.5. If you don't see your bot's settings, click your bot to get to that page.
-    5. Scroll down until you see "App Bot User" Click "create bot user" (or something similar) and then agree.
-    6. Once you've done that, scroll back down, and click "Token: Click to Reveal" This is your bot's secret token. Don't give this to anyone! Put this in your config in the "discordSecret" option.
+    
+   1. Head over to https://discordapp.com/developers/applications/me and log in, if you aren't already.
+    
+   2. Click the button that says "New App"
+    
+   4. Give your bot a name, description, and icon. Then click "Create App"
+    
+   4.5. If you don't see your bot's settings, click your bot to get to that page.
+    
+   5. Scroll down until you see "App Bot User" Click "create bot user" (or something similar) and then agree.
+    
+   6. Once you've done that, scroll back down, and click "Token: Click to Reveal" This is your bot's secret token. Don't give this to anyone! Put this in your config in the "discordSecret" option.
 
 Setting up Twitch App:
     Setting up the Twitch side is even easier than setting up the Discord bot!
-    1. Head over to https://dev.twitch.tv/dashboard and login if you need to.
-    2. If you don't already have an app available, click "Register Your Application" otherwise, click "Apps" and then click "Register your Application"
-    3. Fill out the information it asks for.
-    4. Under the text "Client ID" there is a greyed-out textbox. This is your Twitch Secret. Put that in the config as the "twitchSecret" option.
+    
+   1. Head over to https://dev.twitch.tv/dashboard and login if you need to.
+    
+   2. If you don't already have an app available, click "Register Your Application" otherwise, click "Apps" and then click "Register your Application"
+   
+   3. Fill out the information it asks for.
+    
+   4. Under the text "Client ID" there is a greyed-out textbox. This is your Twitch Secret. Put that in the config as the "twitchSecret" option.
 
 After that, change the settings as you see fit.
 
