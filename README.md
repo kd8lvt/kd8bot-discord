@@ -7,7 +7,7 @@ You must host it yourself. Information on how to do this is provided below, in t
 
 Twitch Commands:
 
-$playtwitch <twitch name>
+$playtwitch (twitch name)
 
     Plays the audio of the provided twitch streamer in the audio channel the command user is in.
     
